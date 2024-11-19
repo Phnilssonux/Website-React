@@ -10,8 +10,30 @@
     
 }
 
+
 .img {
 
     width: 240px;
     height: 240px;
+}
+
+.img:hover {
+    transform: rotateY(360deg);
+    transition-duration: 5s;
+    
+}
+
+.disc-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.disc-btn {
+    background-color: whitesmoke;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
+}
+
+.disc-btn:hover {
+    background-color: bisque;
 }

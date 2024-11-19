@@ -7,6 +7,7 @@ return (
     <img src={discPeach} alt="discgolf disc peach" className="img" />
     <h2 className="disc-title">Peach</h2>
     <p className="disc-text">269kr</p>
+    <button className="disc-btn">More Information</button>
     </div>
 );
 
