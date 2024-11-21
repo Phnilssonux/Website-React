@@ -1,17 +1,15 @@
-import Berg from './components/berg.jsx';
-import Essence from './components/essence.jsx';
-import Peach from './components/peach.jsx';
-import Pure from './components/pure.jsx';
-import Svea from './components/svea.jsx';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './Pages/home.jsx';
+import Collection from './Pages/collection.jsx';
 
 function App() {
   return <>
-    <Berg />
-    <Essence />
-    <Peach />
-    <Pure />
-    <Svea />
-   </>;
+  <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="/collection" element={<Collection/>}/>
+  </Routes>
+</BrowserRouter>  </>;
 }
 
 export default App;
