@@ -1,6 +1,7 @@
 body {
-  margin: 50px;
-  padding: 50px;
+  background-color: rgb(201, 187, 187);
+  padding: 0px;
+  margin: 0px;
   display: flex;
   align-items: center;
   justify-content: center;

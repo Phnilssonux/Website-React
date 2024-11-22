@@ -3,6 +3,7 @@ import Home from './Pages/home.jsx';
 import Collection from './Pages/collection.jsx';
 import About from './Pages/about.jsx';
 import Navbar from './navbar.jsx';
+import Footer from './components/footer.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/collection" element={<Collection/>}/>
             <Route path="/about" element={<About/>}/>
          </Routes>
+         <Footer></Footer>
        </BrowserRouter>  
     </>
   );
