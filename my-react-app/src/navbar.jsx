@@ -9,6 +9,7 @@ function Navbar() {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/collection">Collection</Link></li>
                 <li><Link to="/about">About</Link></li>
+                <li><Link to="/color-picker">Color-picker</Link></li>
             </ul>
         </nav>
     </div>
