@@ -10,6 +10,7 @@ function Navbar() {
                 <li><Link to="/collection">Collection</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/color-picker">Color-picker</Link></li>
+                <li><Link to="/ToDoList">List</Link></li>
             </ul>
         </nav>
     </div>
