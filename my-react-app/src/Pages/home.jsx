@@ -1,20 +1,7 @@
-import {useState} from 'react'
-
-
 function Home() {
-
-      const [name, setName] = useState("Guest");
-
-      const updateName = () => {
-        setName("Philip");
-      }
-
-  
-
     return (
       <div>
-        <button className="home-btn" onClick={updateName}> Set name </button>
-        <h2>Name: {name}</h2>
+        <h2>Home</h2>
       </div>
   );  
 }
